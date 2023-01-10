@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+</head>
+
+<body>
+	<form action="processa.php" method="post">
+		<label>Nome:</label>
+		<input type="text" name="linha1" placeholder="digite seu nome">
+
+		<br>
+		<label>Senha:</label>
+		<input type="password" name="linha2" placeholder="digite uma senha">
+
+		<br>
+		<label>oculto:</label>
+		<input type="hidden" name="infor_ocuta" value="mensagem oculta">
+
+		<br>
+		<label>select: </label>
+		<select name="selecao">
+			<option value="1">opcao 1</option>
+			<option value="2">opcao 2</option>
+		</select>
+
+		<br>
+		<label>Radio:</label>
+		<input type="radio" name="radio1" value="1">M
+		<input type="radio" name="radio1" value="2">F
+
+		<br>
+		<label>Checkbox</label>
+		<input type="checkbox" name="checkbox1" value="1" checked>1
+		<input type="checkbox" name="checkbox1" value="2" >2
+		<input type="checkbox" name="checkbox1" value="3" >3
+		<input type="checkbox" name="checkbox1" value="4" >4
+		<input type="checkbox" name="checkbox1" value="5" >5
+
+		<br>
+		<label>Botoes:</label>
+		<input type="submit" name="submit" value="Enviar">
+		<input type="submit" name="submit" value="Enviar">
+		<input type="submit" name="submit" value="Enviar">
+		<input type="submit" name="submit" value="Enviar">
+		<input type="submit" name="submit" value="Enviar">
+
+	</form>
+
+</body>
+</html>
